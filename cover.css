@@ -1,0 +1,67 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+  color: black;
+  background: whitesmoke;  /* fallback for old browsers */
+}
+
+hr {
+  border-color: #e47676;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+  
+}
+
+.break {
+  margin-bottom:10px;
+}
+
+.skills {
+  padding-top: 15px;
+}
+
+.top-nav-collapse {
+  background-color:  rgb(12, 205, 240) !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: rgb(12, 205, 240) !important;
+  }
+}
+
+
+h1 {
+  letter-spacing: 8px;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+
+.navbar.scrolled {
+  background-color:  rgb(11, 156, 182) !important;
+  transition: background-color 200ms linear;
+}
+footer{
+  background: rgb(12, 205, 240);  /* fallback for old browsers */
+  color: black;
+}
